@@ -1,0 +1,24 @@
+@url = http://localhost:3000
+
+###
+POST {{url}}/auth/login
+Content-Type: application/json
+
+{
+    "username":"phantomknight287",
+    "password":"password"
+}
+
+
+###
+POST {{url}}/auth/sign-up
+Content-Type: application/json
+
+{
+    "username":"phantomknight287",
+    "password":"password",
+    "name":"Gurpal Singh"
+}
+
+###
+GET {{url}}
